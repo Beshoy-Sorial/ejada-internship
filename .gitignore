@@ -1,0 +1,16 @@
+**/terraform.tfvars.secret
+**/ssh-key-*
+.oci
+**/.terraform/
+**/.terraform.lock.hcl
+# Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+# Terraform plan files
+**/*.tfplan
+**/tf.plan
+**/*.plan
+# Secret vars
+**/*.tfvars
+!**/terraform.tfvars.example
